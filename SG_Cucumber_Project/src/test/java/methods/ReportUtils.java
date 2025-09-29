@@ -44,6 +44,7 @@ public class ReportUtils extends CucumberTestRunner {
             return extent;
         }catch(Exception e){
             System.out.println("Exception in 'startExtentReport()' method. "+ e);
+            System.out.println("change2");
             return null;
         }
     }
@@ -116,7 +117,9 @@ public class ReportUtils extends CucumberTestRunner {
                     break;
             }
         }catch(Exception e){
+            System.out.println("change3");
             System.out.println("Exceptio in 'writeResult()' method. "+e);
+
         }
     }
 }
