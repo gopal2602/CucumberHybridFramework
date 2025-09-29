@@ -117,6 +117,7 @@ public class ReportUtils extends CucumberTestRunner {
             }
         }catch(Exception e){
             System.out.println("Exceptio in 'writeResult()' method. "+e);
+
         }
     }
 }
