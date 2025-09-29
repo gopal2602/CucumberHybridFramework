@@ -20,7 +20,6 @@ public class LoginPageBaseClass extends CucumberTestRunner {
      *************************************************************************/
     public boolean navigateURL(WebDriver oBrowser, String strURL){
         try{
-            System.out.println("Inside Navigate Url");
             oBrowser.navigate().to(strURL);
             appInd.waitForCondition(oBrowser, LoginPage.obj_Login_Button, "Clickable", "", 5);
             Assert.assertTrue(appInd.compareExactValue(oBrowser, oBrowser.getTitle(), "actiTIME - Login"));
