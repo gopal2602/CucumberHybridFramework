@@ -16,7 +16,7 @@ public class LoginPageBaseClass extends CucumberTestRunner {
      * Purpose           : This method loads the url
      * Parameters        : WebDriver oBrowser, String strURL
      * Return Type       : boolean
-     * Author Name      : Test user
+     * Author Name      : QA Tester1
      *************************************************************************/
     public boolean navigateURL(WebDriver oBrowser, String strURL){
         try{
