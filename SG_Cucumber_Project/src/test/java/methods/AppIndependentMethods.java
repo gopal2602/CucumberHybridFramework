@@ -47,7 +47,6 @@ public class AppIndependentMethods extends CucumberTestRunner {
             return data;
         }catch(Exception e){
             System.out.println("Exception in 'getPropData()' method. "+ e);
-            System.out.println("change1");
             return null;
         }
         finally
